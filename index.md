@@ -41,7 +41,7 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-left">
           <li>
             <a href="index.html">Home</a>
           </li>
@@ -87,6 +87,7 @@
         <div class="row">
             <!-- Page Header -->
             <div class="col-md-12">
+              <a name="About"></a>
                 <h2 class="page-header">
 			  <!-- 	<img src="img/Long-Name.jpg" alt="photo"/><br> -->
                     <a name="About">About Me</a>
@@ -110,6 +111,7 @@
             </div>
 
             <div class="col-md-12">
+              <a name="Experience"></a>
                 <h2 class="page-header">
             <!-- 	<img src="img/Long-Name.jpg" alt="photo"/><br> -->
                     <a name="Experience">Experience</a>
@@ -144,10 +146,13 @@
 
             </div>
 
+
+
             <div class="col-md-12">
+              <a name="Projects"></a>
                 <h2 class="page-header">
 			  <!-- 	<img src="img/Long-Name.jpg" alt="photo"/><br> -->
-                    <a name="Projects">Projects</a>
+                    <a>Projects</a>
                 </h2>
                    <div class="hr"></div>
             </div>
@@ -170,6 +175,7 @@
 
 
             <div class="col-md-12">
+              <a name="Hobbies"></a>
                 <h2 class="page-header">
 			  <!-- 	<img src="img/Long-Name.jpg" alt="photo"/><br> -->
                     <a name="Hobbies">Hobbies</a>
