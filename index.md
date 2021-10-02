@@ -154,7 +154,7 @@
             <div class="col-md-6 col-md-offset-3">
                 <p class="sub-text">
 
-                  I maintain various work software packages including the
+                  I maintain various software packages including the
                   simulation software for
                   <a href="https://oirlab.ucsd.edu/IRIS.html">the InfraRed
                     Imaging Spectrograph.
