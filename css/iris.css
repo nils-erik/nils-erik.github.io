@@ -1,0 +1,31 @@
+/* ----------------------------------------------------
+	 IRIS
+------------------------------------------------------- */
+
+.portf-half-iris {
+  background-color: #5f5f5f;
+  background-image:url(../img/pattern.png);
+  background-repeat:repeat;
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+  height: 500px;
+  text-align: left;
+}
+
+.portfolio-banner-iris {
+    /* banner for IRIS (currently not used) */
+    width: 100%;
+    padding: 100px 0;
+    color: #fff;
+    background:  url(../img/IRIS_draw.png) no-repeat center center;
+    background-color: #393b3d;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* ----------------------------------------------------
+	 IRIS
+------------------------------------------------------- */
