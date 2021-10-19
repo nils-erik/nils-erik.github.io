@@ -67,15 +67,17 @@
 
     <!-- Portfolio Item Banner -->
     <header class="portfolio-item-banner">
-           <div class="container">
-             <div class="col-md-12">
-                 <h2 class="main-text">Nils-Erik Rundquist</h2>
-                 <div class="intro-text">
-                   Software Developer, Data Analyst, Astrophysicist, Science
-                   Communicator
-                 </div>
+       <div class="container">
+         <div class="col-md-12">
+             <h2 class="main-text">Nils-Erik Rundquist</h2>
+             <div class="intro-text">
+               Software Developer, Data Analyst,
              </div>
-           </div>
+             <div class="intro-text">
+               Astrophysicist, Science Communicator
+             </div>
+         </div>
+       </div>
     </header>
     <!-- /portfolio item banner -->
 
@@ -258,7 +260,7 @@
                       </p>
                       <a target="_blank"> <img src="img/20190710_085342-2.jpg" align="center" alt=""/></a>
                       <p> </p>
-                      <a target="_blank"> <img src="img/IMG_2506.jpg" align="center" alt=""/></a>
+                      <a target="_blank"> <img src="img/IMG_2506_1.jpg" align="center" alt=""/></a>
                       <p> </p>
                       <a target="_blank"> <img src="img/IMG_0121.jpg" align="center" alt=""/></a>
                      </div>
@@ -268,6 +270,8 @@
                       <p class="title">
                         <strong>Woodworking</strong>
                       <a target="_blank"> <img src="img/PXL_20210917_020251786.jpg" align="center" alt=""/></a>
+                      <p> </p>
+                      <a target="_blank"> <img src="img/PXL_20211018_000511757.PORTRAIT.jpg" align="center" alt=""/></a>
                       <p> </p>
                       <a target="_blank"> <img src="img/PXL_20210702_035324956_exported_65000.jpg" align="center" alt=""/></a>
                       <p> </p>
