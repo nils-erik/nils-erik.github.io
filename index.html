@@ -44,7 +44,7 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-left">
           <li>
-            <p style="margin-top:3px;margin-bottom:0px;font-size:24px;">
+            <p style="margin-top:4px;margin-bottom:0px;font-size:24px;">
               <b>Nils-Erik Rundquist</b>
             </p>
           </li>
@@ -168,19 +168,26 @@
                    <div class="hr"></div>
             </div>
             <div class="col-md-6 col-md-offset-3">
-                <p class="sub-text">
-
-                  I maintain various software packages including the
+              <p class="sub-text">
+              The public portion of the code repositories I manage or am involved
+              in are visible at <a href="https://github.com/nils-erik">my github
+              </a> (as is the code I wrote to make this site.) I maintain
+              various software packages including the
                   simulation software for
                   <a href="https://oirlab.ucsd.edu/IRIS.html">the InfraRed
                     Imaging Spectrograph.
                   </a>
                 </p>
                 <p class="sub-text">
-                  Primary author of the
+                  I am the primary author of the
                   <a href="https://oirlab.ucsd.edu/osiris/etc/">
                     OSIRIS ETC.
                   </a>
+                </p>
+
+                <p class="sub-text">
+                  Following are some figures and descriptions of some of the projects
+                  I have completed over the course of my work in astronomy instrumentation simulation.
                 </p>
             </div>
 
@@ -207,7 +214,7 @@
             </div>
             <div class="col-md-5">
               <center>
-                  <img class="img-hover" src="img/instrument_comparisons_aperture2lambdaD.PNG" alt="photo"/>
+                  <img class="img" src="img/instrument_comparisons_aperture2lambdaD.PNG" alt="photo"/>
               </center>
 
             </div>
@@ -215,7 +222,7 @@
             <!-- Project Two -->
             <div class="col-md-7">
                <center>
-                   <img class="img-hover" src="img/Liger_GC_SpectraFig_R8000.PNG" alt="photo"/>
+                   <img class="img" src="img/Liger_GC_SpectraFig_R8000.PNG" alt="photo"/>
                </center>
             </div>
             <div class="col-md-5">
@@ -228,10 +235,118 @@
               science regimes for large adaptive-optics-enabled ground-based
               telescopes. Incorporating simulated Point Spread Functions (PSFs),
               I simulated the performance of Liger in Integral Field Spectrograph
-              (IFS) mode in comparison withsimulations of the existing
+              (IFS) mode in comparison withs imulations of the existing
               OH-Suppressing Infra-Red Imaging Spectrograph (OSIRIS) instrument.
             </p>
             </div>
+
+
+            <!-- Project Three -->
+            <div class="col-md-7">
+              <div class="portfolio-header">
+                IRIS Photometric Performance with Anisoplanatic and Instrumental Reconstruction of Off-axis PSFs for AO
+              </div>
+          <p style="color:#d0d0d0">
+            The InfraRed Imaging Spectrograph (IRIS) is an imaging camera
+            and integral field spectrograph that will be used to sample the
+            Narrow-Field Infrared Adaptive Optics System.  To better
+            understand IRIS science specifications I simulated the relative
+            photometric precision and accuracy across the IRIS imaging
+            camera 34”x34”field of view. Because the the Point Spread
+            Function (PSF) varies due to the effects of anisoplanatism, I
+            used the Anisoplanatic and Instrumental Reconstruction of
+            Off-axis PSFs for AO (AIROPA) software package to conduct
+            photometric measurements on simulated frames using PSF-fitting
+            as the PSF varies in single-source, binary, and crowded field
+            use cases. My characterization of the confusion and anisoplanatic
+            effect results are shown to the right. My full paper is viewable
+            <a href="https://arxiv.org/abs/2103.15779">here.</a>
+          </p>
+            </div>
+            <div class="col-md-5">
+              <center>
+                  <img class="img" src="img/iris_airopa_performance.png" alt="photo"/>
+              </center>
+
+            </div>
+
+            <!-- Project Four -->
+            <div class="col-md-7">
+               <center>
+                   <img class="img" src="img/airopa_gc_fig.png" alt="photo"/>
+               </center>
+            </div>
+            <div class="col-md-5">
+                <div class="portfolio-header">
+                  Galactic Center Simulation and IRIS Photometric Performance with
+                  CPU Processing Characterization with AIROPA
+                </div>
+
+            <p style="color:#d0d0d0">
+              I simulated the Galactic Center in K, planting known sources down
+              to 23rd magnitude and random sources down to 27th magnitude
+              randomly distributed.  I simulated 130200 sources, which is an
+              underestimate of the actual number expected to be observed
+              following the advent of 30-meter-class telescopes. I found the
+              processing of the simulated frames to be highly dependent on the
+              PSF-fitting requirements to AIROPA. Using PSF-fitting correlation
+              values of 0.8, 0.7, 0.6, and 0.5 I achieved a source recovery of
+              3.4%, 6.6%, 9.7%, and 12.6% respectively as shown in the figure
+              left. In order to practically and accurately recover sources in
+              such dense stellar fields, future improvements in PSF-fitting
+              algorithms will be required. My full paper is viewable
+              <a href="https://arxiv.org/abs/2103.15779">here.</a>
+            </p>
+            </div>
+
+
+            <!-- Project Five -->
+            <div class="col-md-7">
+              <div class="portfolio-header">
+                Real-Time Simulation of Volcanic Eruptions on Galilean Moon Io
+              </div>
+            <p style="color:#d0d0d0">
+              Each frame in the movie is a simulated 2.2 second integration from
+              the IRIS imager of Jupiter’s moon Io, estimated in the
+              Z-band to maximize the effect of Rayleigh Scattering and minimize
+              the contrast between the volcanic plumes and the surface brightness.
+              I modeled the ejection of SO2 particles from a volcanic vent on Io;
+              hitherto only detected by space telescopes.  The location of the
+              simulated eruption is Isum Patera, a known explosive hotspot on
+              the surface of Io. The simulated temperature and power output are
+              as observed by the Keck observatory during an eruption event on
+              June 18, 2018.  Using estimates of the internal and external
+              pressure of Io and the likely magma composition, this simulation assumes a
+              volcanic eruption with an initial particle velocity of 770 m/s,
+              reaching a maximum height of 165 km. This is roughly half of the
+              maximum known of large “Pele-Type” plumes of Io’s volcanoes,
+              which have been observed to reach more than 1 km/s and heights of
+              500 km.  Combining Rayleigh scattering effects with the blackbody
+              spectrum of the expanding plume, I estimated the flux over time
+              following a large explosive event.
+            </p>
+
+            </div>
+            <div class="col-md-5">
+              <div class="col-md-5">
+                  <video width="320" height="240" autoplay controls>
+                    <source src="vid/iris_erupt_vid_large_box_fast.mp4" type="video/mp4">
+                  </video>
+              </div>
+                  <div class="col-md-1">
+                    <video width="320" height="240" autoplay src="vid/iris_erupt_vid_small_ed_fast.mp4" type="video/mp4"/ controls>
+                  </div>
+
+              </div>
+
+              <div class="col-md-5">
+                    <video width="320" height="240" autoplay src="vid/iris_erupt_vid_small_small_fast.mp4" type="video/mp4"/ controls>
+              </div>
+
+
+
+
+
 
 
             <div class="col-md-12">
