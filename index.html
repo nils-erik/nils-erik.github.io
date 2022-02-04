@@ -37,13 +37,21 @@
   <!-- Navigation -->
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
+
       <!-- Brand and toggle get grouped for better mobile display -->
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-left">
           <li>
-            <a href="index.html">Home</a>
+            <p style="margin-top:3px;margin-bottom:0px;font-size:24px;">
+              <b>Nils-Erik Rundquist</b>
+            </p>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-left">
+          <li>
+            <a style="margin-left:100px;" href="index.html">Home</a>
           </li>
           <li>
             <a href="#About">About</a>
@@ -71,7 +79,7 @@
          <div class="col-md-12">
              <h2 class="main-text">Nils-Erik Rundquist</h2>
              <div class="intro-text">
-               Software Developer, Data Analyst,
+               Software Engineer, Data Analyst,
              </div>
              <div class="intro-text">
                Astrophysicist, Science Communicator
@@ -98,14 +106,15 @@
             </div>
             <div class="col-md-6 col-md-offset-3">
               <p class="sub-text">
-                I am Nils-Erik Bjorn Rundquist, I work as a researcher in
+                I am Nils-Erik Bjorn Rundquist, I am a software engineer in
                 the Optical InfraRed Laboratory at UCSD in the Center for
                 Astrophysics and Space Sciences.
               </p>
               <p class="sub-text">
                 My work is primarily concerned with performance modeling of large
                 telescope instruments to aid in design and construction of future
-                astronomical instruments. I also simulate astronomy science cases
+                astronomical instruments, particularly for instruments designed
+                for adaptive optics systems. I also simulate astronomy science cases
                 and have deployed simulation tools for astronomers around the world
                 to use for testing the scientific viability of their research.
               </p>
@@ -173,6 +182,55 @@
                     OSIRIS ETC.
                   </a>
                 </p>
+            </div>
+
+            <!-- Project One -->
+            <div class="col-md-7">
+              <div class="portfolio-header">
+                Generalized Near-Infrared Instrument Sensitivity Simulation
+              </div>
+          <p style="color:#d0d0d0">
+            Liger is a new instrument for the W.M. Keck Observatory on Mauna
+            Kea in Hawaii which will fully utilize the new updated Keck All-Sky
+            Precision Adaptive optics (KAPA) system.  I estimated sensitivity
+            in source brightness at which SNR=10 is
+            achieved in an integration time of 10<sup>4</sup> seconds for various
+            near-infrared competing instruments from world-wide observatories as
+            compared to Liger. The solid lines indicate Liger’s performance,
+            dashed lines indicate existing instruments, and dotted lines
+            indicate upcoming future instruments. Instrumental filter modes, shown in the shaded
+            regions for each plot, illustrate that Liger provides the widest
+            wavelength range of any competing instrument, and offers the highest
+            performance in sensitivity, with exception of JWST in the coarse
+            scale.
+          </p>
+            </div>
+            <div class="col-md-5">
+              <center>
+                  <img class="img-hover" src="img/instrument_comparisons_aperture2lambdaD.PNG" alt="photo"/>
+              </center>
+
+            </div>
+
+            <!-- Project Two -->
+            <div class="col-md-7">
+               <center>
+                   <img class="img-hover" src="img/Liger_GC_SpectraFig_R8000.PNG" alt="photo"/>
+               </center>
+            </div>
+            <div class="col-md-5">
+                <div class="portfolio-header">
+                  Estimation of Liger Performance at the Galactic Center
+                </div>
+
+            <p style="color:#d0d0d0">
+              The Galactic Center is one of the most interesting and important
+              science regimes for large adaptive-optics-enabled ground-based
+              telescopes. Incorporating simulated Point Spread Functions (PSFs),
+              I simulated the performance of Liger in Integral Field Spectrograph
+              (IFS) mode in comparison withsimulations of the existing
+              OH-Suppressing Infra-Red Imaging Spectrograph (OSIRIS) instrument.
+            </p>
             </div>
 
 
